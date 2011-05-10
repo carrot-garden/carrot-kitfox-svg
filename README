@@ -1,0 +1,28 @@
+this allows you to get current trunk of
+http://svgsalamander.java.net/
+
+in form of a maven snapshot
+
+	<repositories>
+		<repository>
+			<id>sonatype-oss-snapshots</id>
+			<name>Sonatype OSS Snapshots</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.carrotgarden</groupId>
+			<artifactId>kitfox-svg-core</artifactId>
+			<version>1.1.0-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
