@@ -10,6 +10,7 @@
 	</parent>
 
 	<artifactId>kitfox-svg-core</artifactId>
+	<packaging>bundle</packaging>
 
 	<name>${project.artifactId}</name>
 	<description>${project.name}</description>
