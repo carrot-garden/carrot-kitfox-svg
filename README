@@ -7,7 +7,7 @@ in form of a maven snapshot
 		<repository>
 			<id>sonatype-oss-snapshots</id>
 			<name>Sonatype OSS Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<url>http://oss.sonatype.org/content/repositories/snapshots/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
