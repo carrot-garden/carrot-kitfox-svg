@@ -2,6 +2,7 @@
 .classpath
 .settings/
 
+src/
 bin/
 target/
 logs/
