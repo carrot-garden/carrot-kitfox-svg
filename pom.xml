@@ -36,7 +36,7 @@
 
 		<profile>
 
-			<id>update-from-java-net</id>
+			<id>update</id>
 
 			<build>
 
